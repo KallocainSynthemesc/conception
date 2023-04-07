@@ -12,7 +12,7 @@
             la règle DIP ?
           </p>
           <a
-            href="/exercices/dip/DIP-exercice-2.zip"
+            href="./exercices/dip/DIP-exercice-2.zip"
             download="DIP-exercice-2.zip"
             ><img
               src="../assets/illustrations/zip-file.svg"

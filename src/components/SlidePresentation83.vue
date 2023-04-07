@@ -16,7 +16,7 @@
           </p>
           <p>mvn datanucleus:enhance if bytecode generation does not work</p>
           <a
-            href="/exercices/dao/DAO-exercice-1.zip"
+            href="./exercices/dao/DAO-exercice-1.zip"
             download="DAO-exercice-1.zip"
             ><img
               src="../assets/illustrations/zip-file.svg"
