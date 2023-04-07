@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="32.989395mm"
+   height="40.953281mm"
+   viewBox="0 0 32.989395 40.953281"
+   version="1.1"
+   id="svg42723"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="rectangleSquare.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview42725"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="4.2179991"
+     inkscape:cx="106.33004"
+     inkscape:cy="85.111446"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g45492" />
+  <defs
+     id="defs42720">
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect1246-6-6"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect1250-6-6"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect1254-4-0"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-10.812727,-74.834481)">
+    <g
+       id="g45492">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1671-0"
+         width="28.979973"
+         height="12.670897"
+         x="11.062727"
+         y="102.86687" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="17.626587"
+         y="110.69163"
+         id="text1078-9-4"><tspan
+           sodipodi:role="line"
+           id="tspan1076-4-0"
+           style="font-size:4.23333px;stroke-width:0.264583"
+           x="17.626587"
+           y="110.69163">Square</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1671-0-2"
+         width="28.979973"
+         height="12.670897"
+         x="11.191424"
+         y="75.08448" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="16.071671"
+         y="82.489632"
+         id="text1078-9-4-5"><tspan
+           sodipodi:role="line"
+           id="tspan1076-4-0-4"
+           style="font-size:4.23333px;stroke-width:0.264583"
+           x="16.071671"
+           y="82.489632">Rectangle</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-dasharray:none;stroke-opacity:1"
+         d="m 25.583402,88.518284 -1.241933,3.28226 h 2.661293 z"
+         id="path1778-8" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.499999"
+         d="M 25.725806,91.770159 V 102.68145"
+         id="path46432" />
+      <text
+         xml:space="preserve"
+         style="font-size:2.82222px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+         x="26.808167"
+         y="97.290817"
+         id="text46452"><tspan
+           sodipodi:role="line"
+           id="tspan46450"
+           style="font-size:2.82222px;stroke-width:0.264583"
+           x="26.808167"
+           y="97.290817">is-a (extends)</tspan></text>
+    </g>
+  </g>
+</svg>

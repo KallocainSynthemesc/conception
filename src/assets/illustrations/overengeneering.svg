@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="39.422913mm"
+   height="57.948017mm"
+   viewBox="0 0 39.422913 57.948017"
+   version="1.1"
+   id="svg40068"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="overengeneering.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview40070"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.74564394"
+     inkscape:cx="-221.9558"
+     inkscape:cy="-29.504699"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs40065" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-13.771751,-68.961475)">
+    <g
+       id="g25601"
+       transform="matrix(0.26458333,0,0,0.26458333,-72.570452,24.071294)">
+      <line
+         stroke-dasharray="4, 4"
+         stroke="#000000"
+         stroke-opacity="1"
+         x1="390"
+         y1="313"
+         x2="390"
+         y2="277"
+         id="line25593" />
+      <line
+         stroke="#000000"
+         stroke-opacity="1"
+         x1="390"
+         y1="271"
+         x2="384"
+         y2="277"
+         id="line25595" />
+      <line
+         stroke="#000000"
+         stroke-opacity="1"
+         x1="390"
+         y1="271"
+         x2="396"
+         y2="277"
+         id="line25597" />
+      <line
+         stroke="#000000"
+         stroke-opacity="1"
+         x1="384"
+         y1="277"
+         x2="396"
+         y2="277"
+         id="line25599" />
+    </g>
+    <g
+       id="g25551"
+       transform="matrix(0.26458333,0,0,0.26458333,-70.146842,25.172934)">
+      <circle
+         fill="#ffffc0"
+         stroke="#000000"
+         stroke-width="1"
+         stroke-opacity="1"
+         cx="392"
+         cy="201"
+         id="ellipse25539"
+         r="10"
+         style="fill:#2a2f9d;fill-opacity:1" />
+      <text
+         font-family="Helvetica"
+         font-size="8px"
+         fill="#000000"
+         xml:space="preserve"
+         font-weight="bold"
+         text-anchor="middle"
+         x="392"
+         y="221"
+         id="text25541">InventoryService</text>
+      <line
+         stroke="#000000"
+         stroke-opacity="1"
+         x1="342"
+         y1="229"
+         x2="442"
+         y2="229"
+         id="line25543" />
+      <line
+         stroke="#000000"
+         stroke-opacity="1"
+         x1="342"
+         y1="237"
+         x2="442"
+         y2="237"
+         id="line25545" />
+      <text
+         font-family="Helvetica"
+         font-size="8px"
+         fill="#000000"
+         xml:space="preserve"
+         x="346"
+         y="247"
+         id="text25547">addToInventory()</text>
+      <text
+         font-family="Helvetica"
+         font-size="8px"
+         fill="#000000"
+         xml:space="preserve"
+         x="346"
+         y="263"
+         id="text25549">listInventory()</text>
+    </g>
+    <g
+       id="g25557"
+       transform="matrix(0.26458333,0,0,0.26458333,-66.401266,33.5454)">
+      <rect
+         fill="#ffffff"
+         stroke-dasharray="4, 4"
+         stroke="#000000"
+         stroke-width="1"
+         stroke-opacity="1"
+         x="394.84348"
+         y="134.35603"
+         width="49"
+         height="21"
+         id="rect25553"
+         style="fill:#4754b5;fill-opacity:1" />
+      <text
+         font-family="Helvetica"
+         font-size="8px"
+         fill="#000000"
+         xml:space="preserve"
+         text-anchor="middle"
+         x="419.84348"
+         y="149.35603"
+         id="text25555">T</text>
+    </g>
+    <g
+       id="g25585"
+       transform="matrix(0.26458333,0,0,0.26458333,-72.350123,19.224077)">
+      <rect
+         fill="#cbcbcb"
+         stroke="none"
+         stroke-opacity="1"
+         x="450"
+         y="318"
+         width="3"
+         height="89"
+         id="rect25567" />
+      <rect
+         fill="#cbcbcb"
+         stroke="none"
+         stroke-opacity="1"
+         x="330"
+         y="404"
+         width="123"
+         height="3"
+         id="rect25569" />
+      <rect
+         fill="#ffffc0"
+         stroke="#000000"
+         stroke-width="1"
+         stroke-opacity="1"
+         x="326"
+         y="314"
+         width="124"
+         height="90"
+         id="rect25571"
+         style="fill:#2a2f9d;fill-opacity:1" />
+      <text
+         font-family="Helvetica"
+         font-size="8px"
+         fill="#000000"
+         xml:space="preserve"
+         font-weight="bold"
+         text-anchor="middle"
+         x="388"
+         y="338"
+         id="text25573"
+         style="fill:#ffffff;fill-opacity:1">InventoryServiceImpl</text>
+      <line
+         stroke="#000000"
+         stroke-opacity="1"
+         x1="326"
+         y1="346"
+         x2="450"
+         y2="346"
+         id="line25575" />
+      <line
+         stroke="#000000"
+         stroke-opacity="1"
+         x1="326"
+         y1="354"
+         x2="450"
+         y2="354"
+         id="line25577" />
+      <text
+         font-family="Helvetica"
+         font-size="8px"
+         fill="#000000"
+         xml:space="preserve"
+         x="330"
+         y="364"
+         id="text25579"
+         style="fill:#ffffff;fill-opacity:1">InventoryServiceImpl()</text>
+      <text
+         font-family="Helvetica"
+         font-size="8px"
+         fill="#000000"
+         xml:space="preserve"
+         x="330"
+         y="380"
+         id="text25581"
+         style="fill:#ffffff;fill-opacity:1">addToInventory()</text>
+      <text
+         font-family="Helvetica"
+         font-size="8px"
+         fill="#000000"
+         xml:space="preserve"
+         x="330"
+         y="396"
+         id="text25583"
+         style="fill:#ffffff;fill-opacity:1">listInventory()</text>
+    </g>
+    <g
+       id="g25591"
+       transform="matrix(0.26458333,0,0,0.26458333,-72.570452,24.071294)">
+      <rect
+         fill="#ffffff"
+         stroke-dasharray="4, 4"
+         stroke="#000000"
+         stroke-width="1"
+         stroke-opacity="1"
+         x="411.83273"
+         y="284.67981"
+         width="63"
+         height="21"
+         id="rect25587"
+         style="fill:#4754b5;fill-opacity:1" />
+      <text
+         font-family="Helvetica"
+         font-size="8px"
+         fill="#000000"
+         xml:space="preserve"
+         text-anchor="middle"
+         x="443.83273"
+         y="299.67981"
+         id="text25589">T</text>
+    </g>
+  </g>
+</svg>
