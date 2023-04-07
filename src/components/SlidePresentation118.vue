@@ -29,7 +29,7 @@
         un JPA DAO ?
       </p>
       <a
-        href="/conception/exercices/mvc/MVC-servlet-exercice-1.zip"
+        href="./exercices/mvc/MVC-servlet-exercice-1.zip"
         download="MVC-servlet-exercice-1.zip"
         ><img
           src="../assets/illustrations/zip-file.svg"

@@ -10,7 +10,7 @@
           </p>
           <br />
           <a
-            href="/conception/exercices/composition/composition-exercice-1.zip"
+            href="./exercices/composition/composition-exercice-1.zip"
             download="composition-exercice-1.zip"
             ><img
               src="../assets/illustrations/zip-file.svg"

@@ -35,7 +35,7 @@
             l'ID dans la bonne couche ?
           </p>
           <a
-            href="/conception/exercices/mvc/MVC-exercice-1.zip"
+            href="./exercices/mvc/MVC-exercice-1.zip"
             download="MVC-exercice-1.zip"
             ><img
               src="../assets/illustrations/zip-file.svg"

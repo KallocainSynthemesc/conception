@@ -19,9 +19,7 @@
         montrer avec le bonus que même Button peut être remplacé par quelque
         chose d'autre dans ce système.)
       </p>
-      <a
-        href="/conception/exercices/dip/DIP-exercice-1.zip"
-        download="DIP-exercice-1.zip"
+      <a href="./exercices/dip/DIP-exercice-1.zip" download="DIP-exercice-1.zip"
         ><img
           src="../assets/illustrations/zip-file.svg"
           style="width: 10%"
