@@ -14,7 +14,7 @@
             dans le code?
           </p>
           <a
-            href="./exercices/dao/DAO-exercice-2.zip"
+            href="/conception/exercices/dao/DAO-exercice-2.zip"
             download="DAO-exercice-2.zip"
             ><img
               src="../assets/illustrations/zip-file.svg"

@@ -34,7 +34,7 @@
             }</pre>
           </div>
           <a
-            href="./exercices/service/Service-exercice-1.zip"
+            href="/conception/exercices/service/Service-exercice-1.zip"
             download="Service-exercice-1.zip"
             ><img
               src="../assets/illustrations/zip-file.svg"
