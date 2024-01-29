@@ -3,12 +3,13 @@
     <div class="heading">HTTP Protocol detour</div>
     <div class="content">
       <p>
-        Les URL décrivent l'emplacement spécifique d'une ressource sur un
-        serveur particulier. Elles vous indiquent exactement comment aller
-        chercher une ressource à partir d'un emplacement précis et fixe.
+        Les serveurs Web parlent le protocole HTTP, c'est pourquoi ils sont
+        souvent appelés serveurs HTTP. Ces serveurs HTTP stockent les données de
+        l'Internet et fournissent les données lorsqu'elles sont demandées par
+        les clients HTTP.
       </p>
       <br />
-      <img src="../assets/illustrations/URL.svg" style="width: 95%" />
+      <img src="../assets/illustrations/http.svg" style="width: 60%" />
     </div>
   </div>
 </template>

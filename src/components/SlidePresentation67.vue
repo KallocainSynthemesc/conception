@@ -1,27 +1,17 @@
 <template>
   <div class="slide">
-    <div class="heading">Jakarta EE/ Java EE/ J2EE Platform</div>
+    <div class="heading">Layering - Jakarta EE</div>
     <div class="content">
-      <h2>Proposition Jakarta EE</h2>
+      <h3>
+        C'est vers cette architecture que nous nous dirigeons (Pour le
+        middle-tier)
+      </h3>
       <br />
-      <h3>Séparation claire</h3>
-      <p><span style="font-size: 1.6rem">↪</span> architectures en couches</p>
-      <br />
-      <h3>Fournit les services transversaux</h3>
       <p>
-        <span style="font-size: 1.6rem">↪</span> Persistance, Sécurité,
-        transaction …
+        Les architectures Jakarata EE peuvent devenir très complexes, mais on
+        n'a pas le temps, alors on fait simple.
       </p>
-      <br />
-      <h3>Fournit des frameworks standards</h3>
-      <p>
-        <span style="font-size: 1.6rem">↪</span> JSP, JSF, JPA, EJB, … choix du
-        fournisseur de l'implémentation
-      </p>
-      <br />
-      <h3>Autorise l'utilisation d'autres frameworks</h3>
-      <p><span style="font-size: 1.6rem">↪</span> Struts, Spring …</p>
-      <br />
+      <img src="../assets/illustrations/multilayered.svg" style="width: 65%" />
     </div>
   </div>
 </template>

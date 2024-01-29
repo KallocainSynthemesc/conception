@@ -1,17 +1,28 @@
 <template>
   <div class="slide">
-    <div class="heading">Layering - Jakarta EE</div>
+    <div class="heading">Layering</div>
     <div class="content">
-      <h3>
-        C'est vers cette architecture que nous nous dirigeons (Pour le
-        middle-tier)
-      </h3>
-      <br />
-      <p>
-        Les architectures Jakarata EE peuvent devenir très complexes, mais on
-        n'a pas le temps, alors on fait simple.
-      </p>
-      <img src="../assets/illustrations/multilayered.svg" style="width: 65%" />
+      <div class="flex-container">
+        <div style="width: 65%">
+          <h3>
+            Outre la séparation d'un projet en "tiers" (niveaus), nous pouvons
+            séparer un "tier" (niveau) en layers (couches).
+          </h3>
+          <br />
+          <p>Et devinez les noms des principales layers (couches)</p>
+          <h3>- Présentation layer</h3>
+          <h3>- Domaine</h3>
+          <h3>- Data-Source/Data access layer</h3>
+          <br />
+          <p>
+            Cela ressemble à l'idée des 3 tiers. Mais ne vous y trompez pas, les
+            layers ne sont pas des tiers.
+          </p>
+        </div>
+        <div style="width: 33%">
+          <img src="../assets/illustrations/onion.svg" style="width: 100%" />
+        </div>
+      </div>
     </div>
   </div>
 </template>

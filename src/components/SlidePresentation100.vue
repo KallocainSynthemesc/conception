@@ -1,24 +1,26 @@
 <template>
   <div class="slide">
-    <div class="heading">Presentation Layer</div>
+    <div class="heading">Presentation Layer - MVC</div>
     <div class="content">
-      <p>
-        Examinons un petit exemple (naïf) qui met en œuvre les layers et MVC.
-        (ensuite les défauts)
-      </p>
-      <div
-        class="iFrame-container"
-        data-link="https://replit.com/@DupondDupont/MVCPerson?embed=1"
-      >
-        <iframe
-          src="lightswitch.html"
-          width="100%"
-          height="97%"
-          frameborder="0"
-          marginheight="0"
-          marginwidth="0"
-          >Wird geladen…</iframe
-        >
+      <div class="flex-container">
+        <div style="width: 32%">
+          <h2>
+            Vient ensuite la couche de présentation. Nous verrons ici un autre
+            concept de couche appelé MVC.
+          </h2>
+          <br />
+          <p>
+            Nous verrons également comment la couche de présentation est
+            réalisée avec Servlet/JSP et avec les services Web.
+          </p>
+          <br />
+        </div>
+        <div style="width: 65%">
+          <img
+            src="../assets/illustrations/multilayeredMVC.svg"
+            style="width: 100%"
+          />
+        </div>
       </div>
     </div>
   </div>

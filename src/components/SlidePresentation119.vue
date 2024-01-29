@@ -1,22 +1,17 @@
 <template>
   <div class="slide">
-    <div class="heading">Presentation Layer - Web Services</div>
+    <div class="heading">Web Server detour</div>
     <div class="content">
-      <div class="flex-container">
-        <div style="width: 32%">
-          <h2>
-            Pour l'instant, nous ne commencerons pas par les services Web, qui
-            feront l'objet d'un autre cours.
-          </h2>
-          <br />
-        </div>
-        <div style="width: 65%">
-          <img
-            src="../assets/illustrations/multilayeredREST.svg"
-            style="width: 100%"
-          />
-        </div>
-      </div>
+      <p>
+        Nous n'avons pas de serveur d'application complet. Cependant, Tomcat
+        prend en charge un conteneur Web (JSP et servlet) et c'est suffisant
+        pour l'instant.
+      </p>
+      <br />
+      <img
+        src="../assets/illustrations/containerj2eeTechnologyTomcat.svg"
+        style="width: 95%"
+      />
     </div>
   </div>
 </template>

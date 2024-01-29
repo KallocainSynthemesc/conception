@@ -3,33 +3,44 @@
     <div class="heading">HTTP Protocol detour</div>
     <div class="content">
       <p>
-        Chaque message de réponse HTTP est accompagné d'un code d'état. Ce code
-        d'état est un code numérique à trois chiffres qui indique au client si
-        la demande a abouti ou si d'autres actions sont nécessaires.
+        Le protocole HTTP prend en charge plusieurs commandes de requête
+        différentes, appelées méthodes HTTP. Chaque requête HTTP possède une
+        méthode. La méthode indique au serveur l'action à effectuer
       </p>
       <br />
-      <p>Liste abrégée des codes d'état courants</p>
       <table>
         <tbody>
           <tr>
-            <th>HTTP status code</th>
+            <th>HTTP method</th>
             <th>Description</th>
           </tr>
           <tr>
-            <td>200</td>
-            <td>OK. Le document est retourné correctement.</td>
+            <td>GET</td>
+            <td>Envoyer une ressource nommée du serveur au client</td>
           </tr>
           <tr>
-            <td>404</td>
-            <td>Non trouvé. Impossible de trouver cette ressource.</td>
+            <td>POST</td>
+            <td>
+              Envoyer les données du client dans une application passerelle
+              serveur
+            </td>
           </tr>
           <tr>
-            <td>302</td>
-            <td>Rediriger. Allez ailleurs pour obtenir la ressource.</td>
+            <td>PUT</td>
+            <td>
+              Stocker les données du client dans une ressource serveur nommée
+            </td>
           </tr>
           <tr>
-            <td>500</td>
-            <td>Internal Server Error</td>
+            <td>DELETE</td>
+            <td>Supprime la ressource nommée d'un serveur.</td>
+          </tr>
+          <tr>
+            <td>HEAD</td>
+            <td>
+              Envoyer uniquement les en-têtes HTTP de la réponse pour la
+              ressource nommée.
+            </td>
           </tr>
         </tbody>
       </table>

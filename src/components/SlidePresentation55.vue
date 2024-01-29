@@ -1,14 +1,14 @@
 <template>
   <div class="slide">
-    <div class="heading">Wrapper Design Patterns - Proxy pattern</div>
+    <div class="heading">Wrapper Design Patterns - Adapter pattern</div>
     <div class="content">
       <p>
-        Nous l'utilisons ici pour avoir une version simplifiée d'un objet
-        complexe ou lourd
+        bon lorsque l'on veut réutiliser un code ancien dans notre application
+        sans modifier le code d'origine
       </p>
       <div
         class="iFrame-container"
-        data-link="https://replit.com/@DupondDupont/ProxyPattern?embed=1"
+        data-link="https://replit.com/@DupondDupont/Adapter-pattern?embed=1"
       >
         <iframe
           src="lightswitch.html"

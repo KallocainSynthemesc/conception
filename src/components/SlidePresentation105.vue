@@ -2,9 +2,12 @@
   <div class="slide">
     <div class="heading">Presentation Layer - JSP Java Server Pages</div>
     <div class="content">
-      <h2>Processus de demande de l'utilisateur</h2>
+      <p>
+        Java Server Pages mélange les balises HTML avec le code du langage de
+        programmation Java.
+      </p>
       <br />
-      <img src="../assets/illustrations/jspproecss.svg" style="width: 53%" />
+      <img src="../assets/illustrations/JSP.svg" style="width: 93%" />
     </div>
   </div>
 </template>

@@ -4,40 +4,35 @@
     <div class="content">
       <div class="flex-container">
         <div style="width: 65%">
-          <h2>Data tier</h2>
+          <h2>Presentation tier</h2>
           <br />
           <ol>
             <li>
-              <p>les données sont stockées et gérées</p>
+              <p>Peut fonctionner sur différentes plates-formes</p>
+              <ul>
+                <li>Navigateurs web</li>
+                <li>desktop applications</li>
+              </ul>
             </li>
             <br />
             <li>
-              <p>Relational Database Management System</p>
+              <p>Langues</p>
               <ul>
+                <li>souvent développés à l'aide de HTML, CSS et JavaScript</li>
                 <li>
-                  PostgreSQL, MySQL, MariaDB, Oracle, DB2 et Microsoft SQL
-                  Server
+                  Les applications de bureau peuvent être écrites dans
+                  différents langages de programmation en fonction de la
+                  plate-forme
                 </li>
               </ul>
             </li>
-            <br />
-            <li>
-              <p>NoSQL database server</p>
-              <ul>
-                <li>Cassandra, CouchDB, et MongoDB</li>
-              </ul>
-            </li>
-            <br />
-            <li>
-              <p>
-                Le tier de présentation et le tier de données ne peuvent pas
-                communiquer directement l'un avec l'autre.
-              </p>
-            </li>
           </ol>
         </div>
-        <div style="width: 35%">
-          <img src="../assets/illustrations/datatier.svg" style="width: 100%" />
+        <div style="width: 30%">
+          <img
+            src="../assets/illustrations/presentationSuit.svg"
+            style="width: 100%"
+          />
         </div>
       </div>
     </div>

@@ -2,35 +2,118 @@
   <div class="slide">
     <div class="heading">Data Access Object Layer</div>
     <div class="content">
-      <div class="flex-container">
-        <div style="width: 40%">
-          <p>
-            J'ai deux façons d'accéder aux personnes stockées avec cette
-            application. L'une est un stockage XML et l'autre est un stockage en
-            mémoire.
-          </p>
-          <p>
-            Exercice: Que pensez-vous de créer une interface pour les deux afin
-            que le service soit moins dépendant d'une implémentation concrète et
-            que je puisse facilement passer de l'un à l'autre ?
-          </p>
-          <p>mvn datanucleus:enhance if bytecode generation does not work</p>
-          <a
-            href="./exercices/dao/DAO-exercice-1.zip"
-            download="DAO-exercice-1.zip"
-            ><img
-              src="../assets/illustrations/zip-file.svg"
-              style="width: 10%"
-            />Download zip exercice</a
-          >
-        </div>
-        <div style="width: 57%">
-          <img
-            src="../assets/illustrations/daoPerson.svg"
-            style="width: 100%"
-          />
-        </div>
-      </div>
+      <h2>Data Persistence Methods</h2>
+      <br />
+      <table class="GeneratedTable">
+        <thead>
+          <tr>
+            <th>Objectif</th>
+            <th>JDBC</th>
+            <th>JDO</th>
+            <th>JPA</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Minimiser la courbe d'apprentissage</td>
+            <td>
+              <img
+                src="../assets/illustrations/thumbs-up.svg"
+                style="width: 20%"
+              />
+            </td>
+            <td>
+              <img
+                src="../assets/illustrations/thumbs-middle.svg"
+                style="width: 20%"
+              />
+            </td>
+            <td>
+              <img
+                src="../assets/illustrations/thumbs-middle.svg"
+                style="width: 20%"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Minimiser le code et les fichiers de configuration écrits et
+              maintenus
+            </td>
+            <td>
+              <img
+                src="../assets/illustrations/thumbs-down.svg"
+                style="width: 20%"
+              />
+            </td>
+            <td>
+              <img
+                src="../assets/illustrations/thumbs-middle.svg"
+                style="width: 20%"
+              />
+            </td>
+            <td>
+              <img
+                src="../assets/illustrations/thumbs-middle.svg"
+                style="width: 20%"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Maximiser la capacité de réglage</td>
+            <td>
+              <img
+                src="../assets/illustrations/thumbs-up.svg"
+                style="width: 20%"
+              />
+            </td>
+            <td>
+              <img
+                src="../assets/illustrations/thumbs-middle.svg"
+                style="width: 20%"
+              />
+            </td>
+            <td>
+              <img
+                src="../assets/illustrations/thumbs-middle.svg"
+                style="width: 20%"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Maximiser la portabilité du code</td>
+            <td>
+              <img
+                src="../assets/illustrations/thumbs-middle.svg"
+                style="width: 20%"
+              />
+            </td>
+            <td>
+              <img
+                src="../assets/illustrations/thumbs-up.svg"
+                style="width: 20%"
+              />
+            </td>
+            <td>
+              <img
+                src="../assets/illustrations/thumbs-up.svg"
+                style="width: 20%"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Gérable via JTA</td>
+            <td>oui</td>
+            <td>oui</td>
+            <td>oui</td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+      <p>
+        JTA est une API permettant de gérer transaction commits et le rollbacks
+        (retour en arrière des transactions).
+      </p>
     </div>
   </div>
 </template>

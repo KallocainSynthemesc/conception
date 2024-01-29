@@ -1,91 +1,71 @@
 <template>
   <div class="slide">
-    <div class="heading">Business Logic Layer - Validation</div>
+    <div class="heading">Business Logic Layer</div>
     <div class="content">
+      <h2>Indications</h2>
       <p>
-        nous pouvons également utiliser
-        <a
-          href="https://javaee.github.io/javaee-spec/javadocs/javax/validation/constraints/package-summary.html"
-          >javax.validation</a
-        >
-        et avoir des annotations prédéfinies.
+        Certaines classes et interfaces doivent être modifiées. Plus important
+        encore, nous devons développer le BankAccountDAO. PersonService doit
+        maintenant être en mesure de supprimer des personnes et des comptes
+        bancaires. Bonne chance !
       </p>
-      <table class="GeneratedTable">
-        <thead>
-          <tr>
-            <th>Annotation</th>
-            <th>Description</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>@NotNull</td>
-            <td>
-              Valide que la valeur de la propriété annotée n'est pas nulle
-            </td>
-          </tr>
-          <tr>
-            <td>@AssertTrue</td>
-            <td>valide que la valeur de la propriété annotée est vraie</td>
-          </tr>
-          <tr>
-            <td>@Size</td>
-            <td>
-              Valide que la valeur de la propriété annotée a une taille comprise
-              entre les attributs min et max
-            </td>
-          </tr>
-          <tr>
-            <td>@Max</td>
-            <td>
-              Valide que la propriété annotée a une valeur inférieure ou égale à
-              l'attribut value
-            </td>
-          </tr>
-          <tr>
-            <td>@Email</td>
-            <td>
-              Valide que la propriété annotée est une adresse électronique
-              valide
-            </td>
-          </tr>
-          <tr>
-            <td>@NotBlank</td>
-            <td>
-              valide que la propriété n'est pas nulle ou qu'il n'y a pas
-              d'espace blanc.
-            </td>
-          </tr>
-          <tr>
-            <td>@Positive et @PositiveOrZero</td>
-            <td>
-              ne peut s'appliquer qu'aux valeurs textuelles et valide que la
-              propriété n'est pas nulle ou qu'il n'y a pas d'espace blanc.
-            </td>
-          </tr>
-          <tr>
-            <td>@Negative et @NegativeOrZero</td>
-            <td>
-              s'appliquent aux valeurs numériques et valident qu'elles sont
-              strictement négatives, ou négatives y compris 0.
-            </td>
-          </tr>
-          <tr>
-            <td>@Past et @PastOrPresent</td>
-            <td>
-              valider qu'une valeur de date se situe dans le passé ou dans le
-              passé incluant le présent.
-            </td>
-          </tr>
-          <tr>
-            <td>@Future et @FutureOrPresent</td>
-            <td>
-              valider qu'une valeur de date se situe dans le futur, ou dans le
-              futur incluant le présent.
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="flex-container">
+        <div style="width: 39%">
+          <h3>PersonService</h3>
+          <div
+            style="
+              background: #ffffff;
+              overflow: auto;
+              width: auto;
+              border: solid gray;
+              border-width: 0.1em 0.1em 0.1em 0.8em;
+              padding: 0.2em 0.6em;
+            "
+          >
+            <pre style="margin: 0; line-height: 125%">
+            public <span style="color: #008800; font-weight: bold">class</span> <span style="color: #BB0066; font-weight: bold">PersonService</span>{
+	
+              final PersonDAO dao;
+              final BankAccountDAO bankAccDao;
+
+              public void remove(Person person) {
+                  <span style="color: #333333">...</span>
+              }
+            }</pre>
+          </div>
+          <a
+            href="./exercices/service/Service-exercice-1.zip"
+            download="Service-exercice-1.zip"
+            ><img
+              src="../assets/illustrations/zip-file.svg"
+              style="width: 10%"
+            />Download zip exercice</a
+          >
+        </div>
+        <div style="width: 59%">
+          <h3>BankAccountDAO</h3>
+          <div
+            style="
+              background: #ffffff;
+              overflow: auto;
+              width: auto;
+              border: solid gray;
+              border-width: 0.1em 0.1em 0.1em 0.8em;
+              padding: 0.2em 0.6em;
+            "
+          >
+            <pre style="margin: 0; line-height: 125%">
+            <span style="color: #008800; font-weight: bold">public</span> <span style="color: #008800; font-weight: bold">interface</span> <span style="color: #BB0066; font-weight: bold">BankAccountDAO</span> <span style="color: #333333">{</span>
+     
+                <span style="color: #008800; font-weight: bold">public</span> BankAccount <span style="color: #0066BB; font-weight: bold">findByAccountOwner</span><span style="color: #333333">(</span>Person owner<span style="color: #333333">);</span>
+                
+                <span style="color: #008800; font-weight: bold">public</span> BankAccount <span style="color: #0066BB; font-weight: bold">findByConsultant</span><span style="color: #333333">(</span>Person consultant<span style="color: #333333">);</span>
+
+                <span style="color: #333333">...</span>
+            <span style="color: #333333">}</span></pre>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>

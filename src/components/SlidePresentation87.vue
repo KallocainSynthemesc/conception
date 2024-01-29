@@ -1,33 +1,31 @@
 <template>
   <div class="slide">
-    <div class="heading">Business Logic Layer</div>
+    <div class="heading">Data Access Object Layer</div>
     <div class="content">
       <div class="flex-container">
-        <div style="width: 79%">
-          <h2>Voici ma règle de gestion</h2>
-          <br />
+        <div style="width: 34%">
           <p>
-            Lorsqu'une personne est supprimée, le compte dont elle est
-            propriétaire est également supprimé. Une personne peut également
-            être un conseiller bancaire. Nous ne voulons donc pas supprimer le
-            compte bancaire mais définir le champ bankConsultant d'un tel compte
-            bancaire à "null".
+            Exercice: Je souhaite ajouter un compte bancaire à mon modèle.
+            Pouvez-vous implémenter tout ce qui est rose dans le diagramme de
+            classes ?
           </p>
           <p>
-            Puisque nous avons compris la couche DAO, nous allons travailler
-            avec une couche DAO simplifiée qui est qu'un in-memory-store a
-            partir de maintenant.
+            Bonus : pour les plus rapides, pouvez-vous ajouter le BankAccountJDO
+            dans le code?
           </p>
+          <a
+            href="./exercices/dao/DAO-exercice-2.zip"
+            download="DAO-exercice-2.zip"
+            ><img
+              src="../assets/illustrations/zip-file.svg"
+              style="width: 10%"
+            />Download zip exercice</a
+          >
         </div>
-        <div style="width: 19%">
+        <div style="width: 65%">
           <img
-            src="../assets/illustrations/PersonAccountDelete.svg"
-            style="width: 100%; margin-bottom: 5%"
-          />
-          <hr />
-          <img
-            src="../assets/illustrations/AccountPersonDelete.svg"
-            style="width: 100%; margin-top: 5%"
+            src="../assets/illustrations/DAOBankAccount.svg"
+            style="width: 100%"
           />
         </div>
       </div>

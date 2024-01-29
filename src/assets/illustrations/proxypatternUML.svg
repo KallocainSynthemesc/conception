@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Bouml (http://bouml.free.fr/) -->
+
+<svg
+   width="450.5"
+   height="325"
+   version="1.1"
+   id="svg1264"
+   sodipodi:docname="proxypatternUML.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1268" />
+  <sodipodi:namedview
+     id="namedview1266"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="1.502693"
+     inkscape:cx="175.01912"
+     inkscape:cy="57.896057"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1264" />
+  <g
+     id="g1152"
+     transform="translate(-110.5,-220.5)">
+    <rect
+       fill="#cbcbcb"
+       stroke="none"
+       stroke-opacity="1"
+       x="290"
+       y="237"
+       width="3"
+       height="33"
+       id="rect1140" />
+    <rect
+       fill="#cbcbcb"
+       stroke="none"
+       stroke-opacity="1"
+       x="214"
+       y="267"
+       width="79"
+       height="3"
+       id="rect1142" />
+    <rect
+       fill="#ffffc0"
+       stroke="#000000"
+       stroke-width="1"
+       stroke-opacity="1"
+       x="210"
+       y="233"
+       width="80"
+       height="34"
+       id="rect1144" />
+    <text
+       font-family="Helvetica"
+       font-size="8px"
+       fill="#000000"
+       xml:space="preserve"
+       font-weight="bold"
+       text-anchor="middle"
+       x="250"
+       y="243"
+       id="text1146">client</text>
+    <line
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="210"
+       y1="251"
+       x2="290"
+       y2="251"
+       id="line1148" />
+    <line
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="210"
+       y1="259"
+       x2="290"
+       y2="259"
+       id="line1150" />
+  </g>
+  <g
+     id="g1176"
+     transform="translate(-110.5,-220.5)">
+    <polygon
+       fill="#c0ffff"
+       stroke="#000000"
+       stroke-opacity="1"
+       points="407,407 417,407 417,545 111,545 111,397 407,397 "
+       id="polygon1154" />
+    <line
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="407"
+       y1="397"
+       x2="417"
+       y2="407"
+       id="line1156" />
+    <text
+       font-family="Helvetica"
+       font-size="8px"
+       fill="#000000"
+       xml:space="preserve"
+       x="121"
+       y="421"
+       id="text1158">&lt;T&gt;getAttribut(){</text>
+    <text
+       font-family="Helvetica"
+       font-size="8px"
+       fill="#000000"
+       xml:space="preserve"
+       x="121"
+       y="435"
+       id="text1160">  LOGGER.trace(&quot;getAttribut::entry&quot;);</text>
+    <text
+       font-family="Helvetica"
+       font-size="8px"
+       fill="#000000"
+       xml:space="preserve"
+       x="121"
+       y="449"
+       id="text1162">  if(checkAccess()){</text>
+    <text
+       font-family="Helvetica"
+       font-size="8px"
+       fill="#000000"
+       xml:space="preserve"
+       x="121"
+       y="463"
+       id="text1164">     LOGGER.trace(&quot;getAttribut::security check succeeded&quot;)</text>
+    <text
+       font-family="Helvetica"
+       font-size="8px"
+       fill="#000000"
+       xml:space="preserve"
+       x="121"
+       y="477"
+       id="text1166">     return xxx.getAttribut();</text>
+    <text
+       font-family="Helvetica"
+       font-size="8px"
+       fill="#000000"
+       xml:space="preserve"
+       x="121"
+       y="491"
+       id="text1168">  }</text>
+    <text
+       font-family="Helvetica"
+       font-size="8px"
+       fill="#000000"
+       xml:space="preserve"
+       x="121"
+       y="505"
+       id="text1170">  LOGGER.trace(&quot;getAttribut::security check failed&quot;)</text>
+    <text
+       font-family="Helvetica"
+       font-size="8px"
+       fill="#000000"
+       xml:space="preserve"
+       x="121"
+       y="519"
+       id="text1172">  return null;</text>
+    <text
+       font-family="Helvetica"
+       font-size="8px"
+       fill="#000000"
+       xml:space="preserve"
+       x="121"
+       y="533"
+       id="text1174">}</text>
+  </g>
+  <g
+     id="g1192"
+     transform="translate(-110.5,-220.5)">
+    <rect
+       fill="#cbcbcb"
+       stroke="none"
+       stroke-opacity="1"
+       x="379"
+       y="336"
+       width="3"
+       height="43"
+       id="rect1178" />
+    <rect
+       fill="#cbcbcb"
+       stroke="none"
+       stroke-opacity="1"
+       x="297"
+       y="376"
+       width="85"
+       height="3"
+       id="rect1180" />
+    <rect
+       fill="#ffffc0"
+       stroke="#000000"
+       stroke-width="1"
+       stroke-opacity="1"
+       x="293"
+       y="332"
+       width="86"
+       height="44"
+       id="rect1182" />
+    <text
+       font-family="Helvetica"
+       font-size="8px"
+       fill="#000000"
+       xml:space="preserve"
+       font-weight="bold"
+       text-anchor="middle"
+       x="336"
+       y="342"
+       id="text1184">ProxyXXX</text>
+    <line
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="293"
+       y1="350"
+       x2="379"
+       y2="350"
+       id="line1186" />
+    <line
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="293"
+       y1="358"
+       x2="379"
+       y2="358"
+       id="line1188" />
+    <text
+       font-family="Helvetica"
+       font-size="8px"
+       fill="#000000"
+       xml:space="preserve"
+       x="297"
+       y="368"
+       id="text1190">&lt;T&gt; getAttribut()</text>
+  </g>
+  <g
+     id="g1204"
+     transform="translate(-110.5,-220.5)">
+    <circle
+       fill="#ffffc0"
+       stroke="#000000"
+       stroke-width="1"
+       stroke-opacity="1"
+       cx="423"
+       cy="231"
+       id="ellipse1194"
+       r="10" />
+    <text
+       font-family="Helvetica"
+       font-size="8px"
+       fill="#000000"
+       xml:space="preserve"
+       font-weight="bold"
+       text-anchor="middle"
+       x="423"
+       y="251"
+       id="text1196">InterfaceXXX</text>
+    <line
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="380"
+       y1="259"
+       x2="466"
+       y2="259"
+       id="line1198" />
+    <line
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="380"
+       y1="267"
+       x2="466"
+       y2="267"
+       id="line1200" />
+    <text
+       font-family="Helvetica"
+       font-size="8px"
+       fill="#000000"
+       xml:space="preserve"
+       x="384"
+       y="277"
+       id="text1202">&lt;T&gt; getAttribut()</text>
+  </g>
+  <g
+     id="g1220"
+     transform="translate(-110.5,-220.5)">
+    <rect
+       fill="#cbcbcb"
+       stroke="none"
+       stroke-opacity="1"
+       x="558"
+       y="337"
+       width="3"
+       height="43"
+       id="rect1206" />
+    <rect
+       fill="#cbcbcb"
+       stroke="none"
+       stroke-opacity="1"
+       x="476"
+       y="377"
+       width="85"
+       height="3"
+       id="rect1208" />
+    <rect
+       fill="#ffffc0"
+       stroke="#000000"
+       stroke-width="1"
+       stroke-opacity="1"
+       x="472"
+       y="333"
+       width="86"
+       height="44"
+       id="rect1210" />
+    <text
+       font-family="Helvetica"
+       font-size="8px"
+       fill="#000000"
+       xml:space="preserve"
+       font-weight="bold"
+       text-anchor="middle"
+       x="515"
+       y="343"
+       id="text1212">XXX</text>
+    <line
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="472"
+       y1="351"
+       x2="558"
+       y2="351"
+       id="line1214" />
+    <line
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="472"
+       y1="359"
+       x2="558"
+       y2="359"
+       id="line1216" />
+    <text
+       font-family="Helvetica"
+       font-size="8px"
+       fill="#000000"
+       xml:space="preserve"
+       x="476"
+       y="369"
+       id="text1218">&lt;T&gt; getAttribut()</text>
+  </g>
+  <g
+     id="g1230"
+     transform="translate(-110.5,-220.5)">
+    <line
+       stroke-dasharray="4, 4"
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="494"
+       y1="332"
+       x2="455"
+       y2="289"
+       id="line1222" />
+    <line
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="452"
+       y1="285"
+       x2="451"
+       y2="293"
+       id="line1224" />
+    <line
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="452"
+       y1="285"
+       x2="460"
+       y2="285"
+       id="line1226" />
+    <line
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="451"
+       y1="293"
+       x2="460"
+       y2="285"
+       id="line1228" />
+  </g>
+  <g
+     id="g1236"
+     transform="translate(-110.5,-220.5)">
+    <line
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="383"
+       y1="356"
+       x2="471"
+       y2="356"
+       id="line1232" />
+    <polygon
+       fill="#ffffff"
+       stroke="#000000"
+       stroke-opacity="1"
+       points="395,356 389,362 383,356 389,350 "
+       id="polygon1234" />
+  </g>
+  <g
+     id="g1244"
+     transform="translate(-110.5,-220.5)">
+    <line
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="379"
+       y1="252"
+       x2="373"
+       y2="246"
+       id="line1238" />
+    <line
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="379"
+       y1="252"
+       x2="373"
+       y2="258"
+       id="line1240" />
+    <line
+       stroke-dasharray="4, 4"
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="294"
+       y1="252"
+       x2="379"
+       y2="252"
+       id="line1242" />
+  </g>
+  <g
+     id="g1254"
+     transform="translate(-110.5,-220.5)">
+    <line
+       stroke-dasharray="4, 4"
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="356"
+       y1="331"
+       x2="389"
+       y2="289"
+       id="line1246" />
+    <line
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="393"
+       y1="285"
+       x2="384"
+       y2="285"
+       id="line1248" />
+    <line
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="393"
+       y1="285"
+       x2="393"
+       y2="293"
+       id="line1250" />
+    <line
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="384"
+       y1="285"
+       x2="393"
+       y2="293"
+       id="line1252" />
+  </g>
+  <g
+     id="g1258"
+     transform="translate(-110.5,-220.5)">
+    <line
+       stroke-dasharray="4, 4"
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="310"
+       y1="396"
+       x2="320"
+       y2="380"
+       id="line1256" />
+  </g>
+  <g
+     id="g1262"
+     transform="translate(-110.5,-220.5)">
+    <text
+       font-family="Helvetica"
+       font-size="8px"
+       fill="#000000"
+       xml:space="preserve"
+       x="315"
+       y="260"
+       id="text1260">&lt;&lt;use&gt;&gt;</text>
+  </g>
+</svg>

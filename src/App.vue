@@ -118,6 +118,8 @@ import SlidePresentation116 from "./components/SlidePresentation116.vue";
 import SlidePresentation117 from "./components/SlidePresentation117.vue";
 import SlidePresentation118 from "./components/SlidePresentation118.vue";
 import SlidePresentation119 from "./components/SlidePresentation119.vue";
+import SlidePresentation120 from "./components/SlidePresentation120.vue";
+import SlidePresentation121 from "./components/SlidePresentation121.vue";
 </script>
 
 <template>
@@ -245,6 +247,8 @@ import SlidePresentation119 from "./components/SlidePresentation119.vue";
           <SlidePresentation117></SlidePresentation117>
           <SlidePresentation118></SlidePresentation118>
           <SlidePresentation119></SlidePresentation119>
+          <SlidePresentation120></SlidePresentation120>
+          <SlidePresentation121></SlidePresentation121>
         </section>
 
         <section class="counter">

@@ -2,23 +2,26 @@
   <div class="slide">
     <div class="heading">Wrapper Design Patterns - Adapter pattern</div>
     <div class="content">
-      <p>
-        bon lorsque l'on veut réutiliser un code ancien dans notre application
-        sans modifier le code d'origine
-      </p>
-      <div
-        class="iFrame-container"
-        data-link="https://replit.com/@DupondDupont/Adapter-pattern?embed=1"
-      >
-        <iframe
-          src="lightswitch.html"
-          width="100%"
-          height="97%"
-          frameborder="0"
-          marginheight="0"
-          marginwidth="0"
-          >Wird geladen…</iframe
-        >
+      <div class="flex-container">
+        <div style="width: 30%">
+          <p>
+            L'adaptateur est un modèle de conception structurelle qui permet à
+            des objets ayant des interfaces incompatibles de collaborer.
+          </p>
+          <p>
+            Il s'agit d'un objet spécial qui convertit l'interface d'un objet
+            pour qu'un autre objet puisse la comprendre. Un adaptateur enveloppe
+            l'un des objets pour masquer la complexité de la conversion qui se
+            produit dans les coulisses. L'objet enveloppé n'est même pas
+            conscient de l'existence de l'adaptateur.
+          </p>
+        </div>
+        <div style="width: 65%">
+          <img
+            src="../assets/illustrations/adapterpatternuml.svg"
+            style="width: 80%"
+          />
+        </div>
       </div>
     </div>
   </div>

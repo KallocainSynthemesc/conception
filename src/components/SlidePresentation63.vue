@@ -1,26 +1,43 @@
 <template>
   <div class="slide">
-    <div class="heading">Layering</div>
+    <div class="heading">Architecture 3 Tiers</div>
     <div class="content">
       <div class="flex-container">
         <div style="width: 65%">
-          <h3>
-            Outre la séparation d'un projet en "tiers" (niveaus), nous pouvons
-            séparer un "tier" (niveau) en layers (couches).
-          </h3>
+          <h2>Data tier</h2>
           <br />
-          <p>Et devinez les noms des principales layers (couches)</p>
-          <h3>- Présentation layer</h3>
-          <h3>- Domaine</h3>
-          <h3>- Data-Source/Data access layer</h3>
-          <br />
-          <p>
-            Cela ressemble à l'idée des 3 tiers. Mais ne vous y trompez pas, les
-            layers ne sont pas des tiers.
-          </p>
+          <ol>
+            <li>
+              <p>les données sont stockées et gérées</p>
+            </li>
+            <br />
+            <li>
+              <p>Relational Database Management System</p>
+              <ul>
+                <li>
+                  PostgreSQL, MySQL, MariaDB, Oracle, DB2 et Microsoft SQL
+                  Server
+                </li>
+              </ul>
+            </li>
+            <br />
+            <li>
+              <p>NoSQL database server</p>
+              <ul>
+                <li>Cassandra, CouchDB, et MongoDB</li>
+              </ul>
+            </li>
+            <br />
+            <li>
+              <p>
+                Le tier de présentation et le tier de données ne peuvent pas
+                communiquer directement l'un avec l'autre.
+              </p>
+            </li>
+          </ol>
         </div>
-        <div style="width: 33%">
-          <img src="../assets/illustrations/onion.svg" style="width: 100%" />
+        <div style="width: 35%">
+          <img src="../assets/illustrations/datatier.svg" style="width: 100%" />
         </div>
       </div>
     </div>

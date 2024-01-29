@@ -1,44 +1,45 @@
 <template>
   <div class="slide">
-    <div class="heading">Architecture 3 Tiers - Avantages</div>
+    <div class="heading">Architecture 3 Tiers</div>
     <div class="content">
-      <ol>
-        <li>
-          <p>Séparation des fonctionnalités</p>
-          Chaque tiers peut fonctionner sur un système d'exploitation et une
-          plate-forme de serveur distincts
-        </li>
-        <br />
-        <li>
-          <p>Développement plus rapide</p>
-          Chaque "tier" peut être développé simultanément par différentes
-          équipes
-        </li>
-        <br />
-        <li>
-          <p>Amélioration de l'extensibilité (Scalability)</p>
-          Chaque tier peut être étendu indépendamment des autres, selon les
-          besoins
-        </li>
-        <br />
-        <li>
-          <p>Amélioration de la fiabilité</p>
-          Une panne à un tiers est moins susceptible d'avoir un impact sur la
-          disponibilité ou les performances des autres tiers
-        </li>
-        <br />
-        <li>
-          <p>Amélioration de la sécurité</p>
-          un "tier" d'application bien conçu peut fonctionner comme une sorte de
-          pare-feu interne, empêchant les injections SQL et d'autres exploits
-          malveillants
-        </li>
-      </ol>
-      <img
-        src="../assets/illustrations/thumbs-up.svg"
-        style="height: 40%; top: 15%; left: 75%"
-        class="logo"
-      />
+      <div class="flex-container">
+        <div style="width: 65%">
+          <h2>MiddleTiers (Application tier)</h2>
+          <br />
+          <ol>
+            <li>
+              <p>Cœur d'une application</p>
+            </li>
+            <br />
+            <li>
+              <p>Traitement des données</p>
+              <ul>
+                <li>
+                  Traite les informations collectées au "tier" de la
+                  présentation (presentation-tier)
+                </li>
+                <li>Modifie les données au "tier" des données (data-tier)</li>
+              </ul>
+            </li>
+            <br />
+            <li>
+              <p>Langues</p>
+              <ul>
+                <li>
+                  Il est généralement développé en utilisant Python, Java, Perl,
+                  PHP ou Ruby.
+                </li>
+              </ul>
+            </li>
+          </ol>
+        </div>
+        <div style="width: 35%">
+          <img
+            src="../assets/illustrations/middleTiers.svg"
+            style="width: 100%"
+          />
+        </div>
+      </div>
     </div>
   </div>
 </template>

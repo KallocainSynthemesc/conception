@@ -1,24 +1,23 @@
 <template>
   <div class="slide">
-    <div class="heading">Inheritance - composition au lieu de l'héritage</div>
+    <div class="heading">Wrapper Design Patterns - Proxy pattern</div>
     <div class="content">
-      <p>
-        Exercice : ici, la fenêtre s'étend du Rectangle. Pouvez-vous briser
-        l'héritage et utiliser la composition ?
-      </p>
-      <div
-        class="iFrame-container"
-        data-link="https://replit.com/@DupondDupont/WindowRectangleInheritance?embed=1"
-      >
-        <iframe
-          src="lightswitch.html"
-          width="100%"
-          height="97%"
-          frameborder="0"
-          marginheight="0"
-          marginwidth="0"
-          >Wird geladen…</iframe
-        >
+      <div class="flex-container">
+        <div style="width: 30%">
+          <p>
+            Le proxy est un modèle de conception structurelle qui vous permet de
+            fournir un substitut ou une place pour un autre objet. Un proxy
+            contrôle l'accès à l'objet original, ce qui vous permet d'effectuer
+            une opération avant ou après que la demande ait été transmise à
+            l'objet original.
+          </p>
+        </div>
+        <div style="width: 65%">
+          <img
+            src="../assets/illustrations/proxypatternUML.svg"
+            style="width: 80%"
+          />
+        </div>
       </div>
     </div>
   </div>

@@ -3,27 +3,26 @@
     <div class="heading">Data Access Object Layer</div>
     <div class="content">
       <div class="flex-container">
-        <div style="width: 48%">
+        <div style="width: 40%">
           <p>
-            JPA et JDO utilisent sous le capot JDBC pour de nombreuses
-            connexions.
+            Les objets d'accès aux données (DAO) gèrent l'accès à un stockage
+            persistant d'un certain type.
           </p>
+          <br />
           <p>
-            Cependant, JPA ne concerne que les SGBDR (RDBMS), tandis que JDO
-            prend en charge d'autres systèmes de base de données, tels que les
-            bases de données d'objets, et peut même prendre en charge un XML
-            Datastore.
+            En général, le stockage utilisé est une base de données
+            relationnelle, mais les DAO peuvent également gérer des fichiers,
+            des documents XML et d'autres types de stockage persistant.
           </p>
+          <h2>Data Persistence Methods</h2>
+          <br />
           <p>
-            Je peux également éviter JDO et JPA et me contenter d'utiliser l'API
-            de niveau inférieur JDBC
+            Les principales méthodes de persistance sont aujourd'hui JDBC, JPA
+            et JDO. Il y en avait deux autres, mais elles sont mortes :( RIP.
           </p>
         </div>
-        <div style="width: 50%">
-          <img
-            src="../assets/illustrations/daoLayerAPI.svg"
-            style="width: 100%"
-          />
+        <div style="width: 54%">
+          <img src="../assets/illustrations/daoLayer.svg" style="width: 100%" />
         </div>
       </div>
     </div>

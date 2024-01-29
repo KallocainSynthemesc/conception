@@ -3,14 +3,11 @@
     <div class="heading">HTTP Protocol detour</div>
     <div class="content">
       <p>
-        En regardant notre premier aperçu de http, voici ce qui se passe
-        réellement. Un serveur ne peut pas résoudre une requête tout seul.
-        <b>Le serveur ( machine/ordinateur )</b> a besoin
-        <b>d'une application ( Serveur Web/serveur HTTP )</b> pour résoudre la
-        demande.
+        Nous n'avons fait qu'effleurer la surface du protocole http. Nous
+        pourrions passer une semaine entière à plonger dans les détails de la
+        pile de protocoles.
       </p>
-      <br />
-      <img src="../assets/illustrations/httptomcat.svg" style="width: 95%" />
+      <img src="../assets/illustrations/stop.svg" style="width: 40%" />
     </div>
   </div>
 </template>

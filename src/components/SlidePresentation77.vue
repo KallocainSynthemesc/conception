@@ -1,24 +1,15 @@
 <template>
   <div class="slide">
-    <div class="heading">
-      Value Object Layer - Data Transfer Object - Model Layer
-    </div>
+    <div class="heading">Historique - j2ee Architecture</div>
     <div class="content">
-      <div class="flex-container">
-        <div style="width: 33%">
-          <h2>
-            Nous commencerons par la couche VO, également connue sous le nom de
-            couche DTO ou couche Modèle.
-          </h2>
-          <br />
-        </div>
-        <div style="width: 63%">
-          <img
-            src="../assets/illustrations/multilayeredVO.svg"
-            style="width: 100%"
-          />
-        </div>
-      </div>
+      <p>
+        Les conteneurs J2EE prennent en charge un certain nombre de services.
+        Tous les services ne sont pas les mêmes pour tous les conteneurs.
+      </p>
+      <img
+        src="../assets/illustrations/containerj2eeServices.svg"
+        style="width: 93%"
+      />
     </div>
   </div>
 </template>

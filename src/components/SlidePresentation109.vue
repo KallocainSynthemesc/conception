@@ -3,47 +3,33 @@
     <div class="heading">HTTP Protocol detour</div>
     <div class="content">
       <p>
-        Le protocole HTTP prend en charge plusieurs commandes de requête
-        différentes, appelées méthodes HTTP. Chaque requête HTTP possède une
-        méthode. La méthode indique au serveur l'action à effectuer
+        Comme Internet héberge plusieurs milliers de types de données
+        différents, HTTP marque soigneusement chaque objet transporté sur le Web
+        avec une étiquette de format de données appelée type MIME.
       </p>
-      <br />
-      <table>
-        <tbody>
-          <tr>
-            <th>HTTP method</th>
-            <th>Description</th>
-          </tr>
-          <tr>
-            <td>GET</td>
-            <td>Envoyer une ressource nommée du serveur au client</td>
-          </tr>
-          <tr>
-            <td>POST</td>
-            <td>
-              Envoyer les données du client dans une application passerelle
-              serveur
-            </td>
-          </tr>
-          <tr>
-            <td>PUT</td>
-            <td>
-              Stocker les données du client dans une ressource serveur nommée
-            </td>
-          </tr>
-          <tr>
-            <td>DELETE</td>
-            <td>Supprime la ressource nommée d'un serveur.</td>
-          </tr>
-          <tr>
-            <td>HEAD</td>
-            <td>
-              Envoyer uniquement les en-têtes HTTP de la réponse pour la
-              ressource nommée.
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="flex-container">
+        <div style="width: 45%">
+          <p>
+            • Un document texte au format HTML serait étiqueté avec le type
+            text/html
+          </p>
+          <p>
+            • Un document de texte ASCII simple serait étiqueté avec le type
+            text/plain
+          </p>
+          <p>• Une version JPEG d'une image serait image/jpeg</p>
+          <p>• Une image au format GIF serait image/gif</p>
+          <p>• Un film Apple QuickTime serait video/quicktime.</p>
+          <p>
+            • Une présentation Microsoft PowerPoint serait
+            application/vnd.mspowerpoint
+          </p>
+        </div>
+        <div style="width: 50%">
+          <br />
+          <img src="../assets/illustrations/httpMIME.svg" style="width: 100%" />
+        </div>
+      </div>
     </div>
   </div>
 </template>

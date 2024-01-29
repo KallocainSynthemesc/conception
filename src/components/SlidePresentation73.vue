@@ -3,14 +3,10 @@
     <div class="heading">Historique - j2ee Architecture</div>
     <div class="content">
       <p>
-        Il reste OpenWebStart si vous voulez vraiment avoir une implémentation
-        de Application Client container. OpenWebStart sert principalement à
-        soutenir les logiciels existants/legacy.
+        C'est ainsi que ces conteneurs communiquaient entre eux. Chaque
+        conteneur peut etre séparé par un "tier" (niveau) différent.
       </p>
-      <img
-        src="../assets/illustrations/containerj2eeTechnologyDeaths.svg"
-        style="width: 77%"
-      />
+      <img src="../assets/illustrations/containerj2ee.svg" style="width: 80%" />
     </div>
   </div>
 </template>

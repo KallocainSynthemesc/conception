@@ -1,41 +1,16 @@
 <template>
   <div class="slide">
-    <div class="heading">Presentation Layer - JSP Java Server Pages</div>
+    <div class="heading">HTTP Protocol detour</div>
     <div class="content">
-      <h2>
-        Voici notre application de gestion des personnes avec un contrôleur
-        servlet et une vue JSP.
-      </h2>
+      <p>
+        En regardant notre premier aperçu de http, voici ce qui se passe
+        réellement. Un serveur ne peut pas résoudre une requête tout seul.
+        <b>Le serveur ( machine/ordinateur )</b> a besoin
+        <b>d'une application ( Serveur Web/serveur HTTP )</b> pour résoudre la
+        demande.
+      </p>
       <br />
-      <h3>
-        Il comprend toutes les couches et utilise un serveur tomcat intégré.
-      </h3>
-      <br />
-      <p>
-        Exercice: Pouvez-vous ajouter le modèle/DAO/service BankAccount au
-        projet et créer les vues équivalentes ?
-      </p>
-      <p>
-        Bonus : Pouvez-vous ajouter la règle de gestion pour le compte bancaire
-        ? (Lorsqu'une personne est supprimée, le compte bancaire est supprimé.)
-      </p>
-      <p>
-        Bonus : Une personne ne peut pas être à la fois propriétaire et
-        consultant d'un compte bancaire. Pouvez-vous créer une règle de
-        validation à l'aide de javax.validation pour créer une contrainte ?
-      </p>
-      <p>
-        Bonus : WOW, Vous êtes vraiment allé loin, et si vous ajoutiez un JDO ou
-        un JPA DAO ?
-      </p>
-      <a
-        href="./exercices/mvc/MVC-servlet-exercice-1.zip"
-        download="MVC-servlet-exercice-1.zip"
-        ><img
-          src="../assets/illustrations/zip-file.svg"
-          style="width: 7%"
-        />Download zip exercice</a
-      >
+      <img src="../assets/illustrations/httptomcat.svg" style="width: 95%" />
     </div>
   </div>
 </template>

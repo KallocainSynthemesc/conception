@@ -3,28 +3,30 @@
     <div class="heading">Data Access Object Layer</div>
     <div class="content">
       <div class="flex-container">
-        <div style="width: 34%">
+        <div style="width: 40%">
           <p>
-            Exercice: Je souhaite ajouter un compte bancaire à mon modèle.
-            Pouvez-vous implémenter tout ce qui est rose dans le diagramme de
-            classes ?
+            J'ai deux façons d'accéder aux personnes stockées avec cette
+            application. L'une est un stockage XML et l'autre est un stockage en
+            mémoire.
           </p>
           <p>
-            Bonus : pour les plus rapides, pouvez-vous ajouter le BankAccountJDO
-            dans le code?
+            Exercice: Que pensez-vous de créer une interface pour les deux afin
+            que le service soit moins dépendant d'une implémentation concrète et
+            que je puisse facilement passer de l'un à l'autre ?
           </p>
+          <p>mvn datanucleus:enhance if bytecode generation does not work</p>
           <a
-            href="./exercices/dao/DAO-exercice-2.zip"
-            download="DAO-exercice-2.zip"
+            href="./exercices/dao/DAO-exercice-1.zip"
+            download="DAO-exercice-1.zip"
             ><img
               src="../assets/illustrations/zip-file.svg"
               style="width: 10%"
             />Download zip exercice</a
           >
         </div>
-        <div style="width: 65%">
+        <div style="width: 57%">
           <img
-            src="../assets/illustrations/DAOBankAccount.svg"
+            src="../assets/illustrations/daoPerson.svg"
             style="width: 100%"
           />
         </div>

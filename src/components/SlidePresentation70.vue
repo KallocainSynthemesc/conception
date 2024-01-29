@@ -1,39 +1,49 @@
 <template>
   <div class="slide">
-    <div class="heading">Historique - j2ee Architecture</div>
+    <div class="heading">Java SE (Java 2 Standard Edition/J2SE)</div>
     <div class="content">
-      <div class="flex-container">
-        <div style="width: 50%">
-          <h3>Web container (ou Servlet container)</h3>
-          <p>
-            <span style="font-size: 1.6rem">↪</span> Les servlets et les JSP
-            fournissent des mécanismes pour la préparation dynamique du contenu,
-            et le formatage liés à la présentation.
-          </p>
-          <h3>Applet container</h3>
-          <p>
-            <span style="font-size: 1.6rem">↪</span> Complètement mort depuis
-            Java 11
-          </p>
-          <h3>Application client container</h3>
-          <p>
-            <span style="font-size: 1.6rem">↪</span> semi mort depuis Java 11
-            (JNLP, openwebstart)
-          </p>
-          <h3>EJB container</h3>
-          <p>
-            <span style="font-size: 1.6rem">↪</span> Les composants EJB, ou
-            enterprise beans, sont de deux types : les session beans et les
-            entity beans.
-          </p>
-        </div>
-        <div style="width: 50%">
-          <img
-            src="../assets/illustrations/container.svg"
-            style="width: 100%"
-          />
-        </div>
-      </div>
+      <p>
+        Avant de commencer à parler de Jakarta EE/Java EE/J2EE, je voudrais
+        préciser ce qu'est Java SE/J2SE/Java 2 Standart Edition.
+      </p>
+      <p>
+        Java SE fournit les fonctionnalités du langage Java ainsi que les
+        bibliothèques de base nécessaires au développement Java.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Function</th>
+            <th>Nom du paquet</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>GUI</td>
+            <td>java.awt.*, javax.swing.*</td>
+          </tr>
+          <tr>
+            <td>Accès aux bases de données</td>
+            <td>java.sql.*</td>
+          </tr>
+          <tr>
+            <td>Accès aux répertoires</td>
+            <td>javax.naming.*</td>
+          </tr>
+          <tr>
+            <td>CORBA</td>
+            <td>javax.rmi.CORBA.*</td>
+          </tr>
+          <tr>
+            <td>Sécurité</td>
+            <td>javax.security.*</td>
+          </tr>
+          <tr>
+            <td>Entrée/Sortie</td>
+            <td>javax.io.*</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 </template>

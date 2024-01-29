@@ -1,44 +1,91 @@
 <template>
   <div class="slide">
-    <div class="heading">Détour - Annotations</div>
+    <div class="heading">Business Logic Layer - Validation</div>
     <div class="content">
       <p>
-        Les annotations sont des métadonnées de code. Elles contiennent des
-        informations sur le code lui-même. Auparavant, nous faisions souvent
-        cela en XML
+        nous pouvons également utiliser
+        <a
+          href="https://javaee.github.io/javaee-spec/javadocs/javax/validation/constraints/package-summary.html"
+          >javax.validation</a
+        >
+        et avoir des annotations prédéfinies.
       </p>
-      <h3>Informations pour le compilateur:</h3>
-      <p>
-        pour que le compilateur produise des avertissements ou même des erreurs
-        sur la base de différentes règles.
-      </p>
-      <div
-        style="
-          background: #ffffff;
-          overflow: auto;
-          width: auto;
-          border: solid gray;
-          border-width: 0.1em 0.1em 0.1em 0.8em;
-          padding: 0.2em 0.6em;
-          margin-top: -10px;
-        "
-      >
-        <pre style="margin: 0; line-height: 125%">
-        <span style="color: #555555; font-weight: bold">@Override</span>
-        <span style="color: #555555; font-weight: bold">@SuppressWarnings</span><span style="color: #333333">(</span> <span style="background-color: #fff0f0">&quot;unused&quot;</span><span style="color: #333333">)</span></pre>
-      </div>
-      <br />
-      <h3>Documentation:</h3>
-      <p>mesure la qualité du code ou génère des rapports automatiquement.</p>
-      <br />
-      <h3>Génération de code:</h3>
-      <p>générer automatiquement du code ou des fichiers XML.</p>
-      <br />
-      <h3>Runtime processing</h3>
-      <p>
-        tests unitaires, injection de dépendances, validation, journalisation,
-        accès aux données.
-      </p>
+      <table class="GeneratedTable">
+        <thead>
+          <tr>
+            <th>Annotation</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>@NotNull</td>
+            <td>
+              Valide que la valeur de la propriété annotée n'est pas nulle
+            </td>
+          </tr>
+          <tr>
+            <td>@AssertTrue</td>
+            <td>valide que la valeur de la propriété annotée est vraie</td>
+          </tr>
+          <tr>
+            <td>@Size</td>
+            <td>
+              Valide que la valeur de la propriété annotée a une taille comprise
+              entre les attributs min et max
+            </td>
+          </tr>
+          <tr>
+            <td>@Max</td>
+            <td>
+              Valide que la propriété annotée a une valeur inférieure ou égale à
+              l'attribut value
+            </td>
+          </tr>
+          <tr>
+            <td>@Email</td>
+            <td>
+              Valide que la propriété annotée est une adresse électronique
+              valide
+            </td>
+          </tr>
+          <tr>
+            <td>@NotBlank</td>
+            <td>
+              valide que la propriété n'est pas nulle ou qu'il n'y a pas
+              d'espace blanc.
+            </td>
+          </tr>
+          <tr>
+            <td>@Positive et @PositiveOrZero</td>
+            <td>
+              ne peut s'appliquer qu'aux valeurs textuelles et valide que la
+              propriété n'est pas nulle ou qu'il n'y a pas d'espace blanc.
+            </td>
+          </tr>
+          <tr>
+            <td>@Negative et @NegativeOrZero</td>
+            <td>
+              s'appliquent aux valeurs numériques et valident qu'elles sont
+              strictement négatives, ou négatives y compris 0.
+            </td>
+          </tr>
+          <tr>
+            <td>@Past et @PastOrPresent</td>
+            <td>
+              valider qu'une valeur de date se situe dans le passé ou dans le
+              passé incluant le présent.
+            </td>
+          </tr>
+          <tr>
+            <td>@Future et @FutureOrPresent</td>
+            <td>
+              valider qu'une valeur de date se situe dans le futur, ou dans le
+              futur incluant le présent.
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 </template>
