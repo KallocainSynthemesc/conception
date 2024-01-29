@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Bouml (http://bouml.free.fr/) -->
+
+<svg
+   width="393.5"
+   height="244"
+   version="1.1"
+   id="svg488"
+   sodipodi:docname="adapterpatternuml.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs492" />
+  <sodipodi:namedview
+     id="namedview490"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="1.7329193"
+     inkscape:cx="118.29749"
+     inkscape:cy="14.426523"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg488" />
+  <g
+     id="g380"
+     transform="translate(-167.5,-227.5)">
+    <circle
+       fill="#ffffc0"
+       stroke="#000000"
+       stroke-width="1"
+       stroke-opacity="1"
+       cx="337"
+       cy="238"
+       id="ellipse370"
+       r="10" />
+    <text
+       font-family="Helvetica"
+       font-size="8px"
+       fill="#000000"
+       xml:space="preserve"
+       font-weight="bold"
+       text-anchor="middle"
+       x="337"
+       y="258"
+       id="text372">ClientInterface</text>
+    <line
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="293"
+       y1="266"
+       x2="381"
+       y2="266"
+       id="line374" />
+    <line
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="293"
+       y1="274"
+       x2="381"
+       y2="274"
+       id="line376" />
+    <text
+       font-family="Helvetica"
+       font-size="8px"
+       fill="#000000"
+       xml:space="preserve"
+       x="297"
+       y="284"
+       id="text378">&lt;T&gt; getEtat()</text>
+  </g>
+  <g
+     id="g394"
+     transform="translate(-167.5,-227.5)">
+    <rect
+       fill="#cbcbcb"
+       stroke="none"
+       stroke-opacity="1"
+       x="248"
+       y="246"
+       width="3"
+       height="33"
+       id="rect382" />
+    <rect
+       fill="#cbcbcb"
+       stroke="none"
+       stroke-opacity="1"
+       x="172"
+       y="276"
+       width="79"
+       height="3"
+       id="rect384" />
+    <rect
+       fill="#ffffc0"
+       stroke="#000000"
+       stroke-width="1"
+       stroke-opacity="1"
+       x="168"
+       y="242"
+       width="80"
+       height="34"
+       id="rect386" />
+    <text
+       font-family="Helvetica"
+       font-size="8px"
+       fill="#000000"
+       xml:space="preserve"
+       font-weight="bold"
+       text-anchor="middle"
+       x="208"
+       y="252"
+       id="text388">client</text>
+    <line
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="168"
+       y1="260"
+       x2="248"
+       y2="260"
+       id="line390" />
+    <line
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="168"
+       y1="268"
+       x2="248"
+       y2="268"
+       id="line392" />
+  </g>
+  <g
+     id="g406"
+     transform="translate(-167.5,-227.5)">
+    <polygon
+       fill="#c0ffff"
+       stroke="#000000"
+       stroke-opacity="1"
+       points="314,409 324,409 324,471 178,471 178,399 314,399 "
+       id="polygon396" />
+    <line
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="314"
+       y1="399"
+       x2="324"
+       y2="409"
+       id="line398" />
+    <text
+       font-family="Helvetica"
+       font-size="8px"
+       fill="#000000"
+       xml:space="preserve"
+       x="188"
+       y="423"
+       id="text400">&lt;T&gt; getEtat(){</text>
+    <text
+       font-family="Helvetica"
+       font-size="8px"
+       fill="#000000"
+       xml:space="preserve"
+       x="188"
+       y="437"
+       id="text402">  return xxx.getAttribut();</text>
+    <text
+       font-family="Helvetica"
+       font-size="8px"
+       fill="#000000"
+       xml:space="preserve"
+       x="188"
+       y="451"
+       id="text404">}</text>
+  </g>
+  <g
+     id="g422"
+     transform="translate(-167.5,-227.5)">
+    <rect
+       fill="#cbcbcb"
+       stroke="none"
+       stroke-opacity="1"
+       x="373"
+       y="336"
+       width="3"
+       height="43"
+       id="rect408" />
+    <rect
+       fill="#cbcbcb"
+       stroke="none"
+       stroke-opacity="1"
+       x="297"
+       y="376"
+       width="79"
+       height="3"
+       id="rect410" />
+    <rect
+       fill="#ffffc0"
+       stroke="#000000"
+       stroke-width="1"
+       stroke-opacity="1"
+       x="293"
+       y="332"
+       width="80"
+       height="44"
+       id="rect412" />
+    <text
+       font-family="Helvetica"
+       font-size="8px"
+       fill="#000000"
+       xml:space="preserve"
+       font-weight="bold"
+       text-anchor="middle"
+       x="333"
+       y="342"
+       id="text414">AdapteurXXX</text>
+    <line
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="293"
+       y1="350"
+       x2="373"
+       y2="350"
+       id="line416" />
+    <line
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="293"
+       y1="358"
+       x2="373"
+       y2="358"
+       id="line418" />
+    <text
+       font-family="Helvetica"
+       font-size="8px"
+       fill="#000000"
+       xml:space="preserve"
+       x="297"
+       y="368"
+       id="text420">&lt;T&gt; getEtat()</text>
+  </g>
+  <g
+     id="g434"
+     transform="translate(-167.5,-227.5)">
+    <circle
+       fill="#ffffc0"
+       stroke="#000000"
+       stroke-width="1"
+       stroke-opacity="1"
+       cx="518"
+       cy="239"
+       id="ellipse424"
+       r="10" />
+    <text
+       font-family="Helvetica"
+       font-size="8px"
+       fill="#000000"
+       xml:space="preserve"
+       font-weight="bold"
+       text-anchor="middle"
+       x="518"
+       y="259"
+       id="text426">InterfaceXXX</text>
+    <line
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="475"
+       y1="267"
+       x2="561"
+       y2="267"
+       id="line428" />
+    <line
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="475"
+       y1="275"
+       x2="561"
+       y2="275"
+       id="line430" />
+    <text
+       font-family="Helvetica"
+       font-size="8px"
+       fill="#000000"
+       xml:space="preserve"
+       x="479"
+       y="285"
+       id="text432">&lt;T&gt; getAttribut()</text>
+  </g>
+  <g
+     id="g450"
+     transform="translate(-167.5,-227.5)">
+    <rect
+       fill="#cbcbcb"
+       stroke="none"
+       stroke-opacity="1"
+       x="558"
+       y="337"
+       width="3"
+       height="43"
+       id="rect436" />
+    <rect
+       fill="#cbcbcb"
+       stroke="none"
+       stroke-opacity="1"
+       x="476"
+       y="377"
+       width="85"
+       height="3"
+       id="rect438" />
+    <rect
+       fill="#ffffc0"
+       stroke="#000000"
+       stroke-width="1"
+       stroke-opacity="1"
+       x="472"
+       y="333"
+       width="86"
+       height="44"
+       id="rect440" />
+    <text
+       font-family="Helvetica"
+       font-size="8px"
+       fill="#000000"
+       xml:space="preserve"
+       font-weight="bold"
+       text-anchor="middle"
+       x="515"
+       y="343"
+       id="text442">XXX</text>
+    <line
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="472"
+       y1="351"
+       x2="558"
+       y2="351"
+       id="line444" />
+    <line
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="472"
+       y1="359"
+       x2="558"
+       y2="359"
+       id="line446" />
+    <text
+       font-family="Helvetica"
+       font-size="8px"
+       fill="#000000"
+       xml:space="preserve"
+       x="476"
+       y="369"
+       id="text448">&lt;T&gt; getAttribut()</text>
+  </g>
+  <g
+     id="g456"
+     transform="translate(-167.5,-227.5)">
+    <line
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="252"
+       y1="260"
+       x2="292"
+       y2="260"
+       id="line452" />
+    <polygon
+       fill="#ffffff"
+       stroke="#000000"
+       stroke-opacity="1"
+       points="264,260 258,266 252,260 258,254 "
+       id="polygon454" />
+  </g>
+  <g
+     id="g466"
+     transform="translate(-167.5,-227.5)">
+    <line
+       stroke-dasharray="4, 4"
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="517"
+       y1="332"
+       x2="517"
+       y2="299"
+       id="line458" />
+    <line
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="517"
+       y1="293"
+       x2="511"
+       y2="299"
+       id="line460" />
+    <line
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="517"
+       y1="293"
+       x2="523"
+       y2="299"
+       id="line462" />
+    <line
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="511"
+       y1="299"
+       x2="523"
+       y2="299"
+       id="line464" />
+  </g>
+  <g
+     id="g472"
+     transform="translate(-167.5,-227.5)">
+    <line
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="377"
+       y1="356"
+       x2="471"
+       y2="356"
+       id="line468" />
+    <polygon
+       fill="#ffffff"
+       stroke="#000000"
+       stroke-opacity="1"
+       points="389,356 383,362 377,356 383,350 "
+       id="polygon470" />
+  </g>
+  <g
+     id="g482"
+     transform="translate(-167.5,-227.5)">
+    <line
+       stroke-dasharray="4, 4"
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="335"
+       y1="331"
+       x2="335"
+       y2="297"
+       id="line474" />
+    <line
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="336"
+       y1="292"
+       x2="329"
+       y2="297"
+       id="line476" />
+    <line
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="336"
+       y1="292"
+       x2="341"
+       y2="298"
+       id="line478" />
+    <line
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="329"
+       y1="297"
+       x2="341"
+       y2="298"
+       id="line480" />
+  </g>
+  <g
+     id="g486"
+     transform="translate(-167.5,-227.5)">
+    <line
+       stroke-dasharray="4, 4"
+       stroke="#000000"
+       stroke-opacity="1"
+       x1="287"
+       y1="398"
+       x2="305"
+       y2="380"
+       id="line484" />
+  </g>
+</svg>
